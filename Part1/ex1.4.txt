@@ -1,0 +1,16 @@
+// Exercise 1.4: MISSING DEPENDENCIES
+// Return the command you used to start process and the command(s) you
+// used to fix the ensuing problems.
+
+// Starting the container
+sudo docker run -it -d ubuntu sh -c 'while true; do echo "Input website:";
+    read website; echo "Searching.."; sleep 1; curl http://$website; done'
+
+// start a bash process
+sudo docker exec -it fervent_leavitt bash
+
+// update package lists
+apt-get update
+
+// install curl
+apt-get install curl
