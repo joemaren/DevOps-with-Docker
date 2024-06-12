@@ -1,0 +1,6 @@
+// Exercise 1.1 Output for "docker ps -a".
+
+CONTAINER ID   IMAGE         COMMAND                  CREATED        STATUS                      PORTS     NAMES
+9efe3d825077   mariadb       "docker-entrypoint.s…"   16 hours ago   Exited (0) 16 hours ago               brave_haslett
+0c26fb9fc551   postgres      "docker-entrypoint.s…"   17 hours ago   Exited (0) 16 hours ago               funny_hodgkin
+09161717585f   nginx         "/docker-entrypoint.…"   17 hours ago   Up 17 hours                 80/tcp    crazy_euclid
