@@ -1,0 +1,8 @@
+// Output for 'docker ps -a' and 'docker image ls'
+
+➜  ~ sudo docker ps -a
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+
+➜  ~ sudo docker image ls
+REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
+
