@@ -1,0 +1,10 @@
+// Exercise 1.6: HELLO DOCKER HUB
+// Read the Dockerfile and/or docs to learn what input will get the application
+// to answer a "secret message".
+// Submit the secret message and command(s) given to get it as your answer.
+
+You found the correct password. Secret message is:
+"This is the secret message"
+
+// command
+basics
