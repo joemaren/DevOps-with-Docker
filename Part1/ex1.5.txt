@@ -1,0 +1,27 @@
+// Exercise 1.5: SIZES OF IMAGES
+
+command: docker image ls
+
+REPOSITORY                          TAG               IMAGE ID       CREATED       SIZE
+devopsdockeruh/simple-web-service   ubuntu            4e3362e907d5   3 years ago   83MB
+devopsdockeruh/simple-web-service   alpine            fd312adc88e0   3 years ago   15.7MB
+
+// Get shell access
+docker exec -it angry_wu sh
+
+// log file
+/usr/src/app # tail -n 10 text.log
+2024-06-13 14:45:24 +0000 UTC
+2024-06-13 14:45:26 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2024-06-13 14:45:28 +0000 UTC
+2024-06-13 14:45:30 +0000 UTC
+2024-06-13 14:45:32 +0000 UTC
+2024-06-13 14:45:34 +0000 UTC
+2024-06-13 14:45:36 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2024-06-13 14:45:38 +0000 UTC
+
+
+
+
