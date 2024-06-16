@@ -1,0 +1,5 @@
+# Exercise 1.9: VOLUMES
+# Start the container with a bind mound so that the logs are
+# created into your filesystem.
+
+sudo docker run -v $(pwd):$(pwd) -w $(pwd) -i -t devopsdockeruh/simple-web-service
