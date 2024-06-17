@@ -1,0 +1,4 @@
+# Exercise 1.10: PORTS OPEN
+# Submit the command used to map the port on the container to a port on the host.
+
+sudo docker run -p 8080:8080 devopsdockeruh/simple-web-service server
